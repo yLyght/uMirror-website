@@ -5,6 +5,7 @@ import Sobre from './componentes/paginas/Sobre';
 import Home from './componentes/paginas/Home';
 import Erro from './componentes/paginas/Erro';
 import NavBar from './componentes/navbar/navbar';
+import Formulario from './componentes/login/Formulario';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/Sobre' element={<Sobre/>}/>
         <Route path='/Cu' element={<Cu/>}/>
+        <Route path='/login' element={<Formulario/>}/>
         <Route path='*' element={<Erro/>}/>
       </Routes>
     </Router>

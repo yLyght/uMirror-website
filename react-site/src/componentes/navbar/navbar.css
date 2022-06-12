@@ -40,3 +40,8 @@ body {
 .Nav li:hover {
     background-color: grey;
 }
+
+.logo {
+    width: 20;
+    height: 10;
+}
