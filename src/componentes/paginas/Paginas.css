@@ -1,0 +1,40 @@
+
+.FundoPag{
+background: rgb(0,0,0);
+background: linear-gradient(47deg, rgba(0,0,0,1) 0%, rgba(60,22,93,1) 44%, rgba(255,153,0,1) 100%);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.fonte{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-fill-color: rgb(129, 9, 165);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    text-align: center;
+    text-shadow:#000 -3px -3px
+    
+}
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
+.fonte-p {
+    font-family:fantasy;
+    color: bisque;
+    font-size: large;
+    text-align:start;
+}
+
+.marcatexto {
+	box-shadow: 15px 0 0 0 #000, -5px 0 0 0 #000;
+	background: #000;
+	display: inline;
+	padding: 3px 0 !important;
+	position: relative;
+}
